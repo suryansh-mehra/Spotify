@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+}
+.invert{
+    filter: invert(1);
+}
+.m-1{
+    margin: 7px 0px;
+}
+.p-1{
+ padding: 12px;
+}
+.rounded{
+     border-radius: 5px;
+}
+:root {
+  scrollbar-color: #444 #0a0a0a;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
