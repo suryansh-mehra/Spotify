@@ -34,3 +34,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #666;
 }
+
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.card, .songList, .playButtons, .seekBar, .volume, .header, .home {
+    user-select: none;
+    -webkit-user-select: none;
+}
